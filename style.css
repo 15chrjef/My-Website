@@ -1,0 +1,398 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*** H#*******************************************************/
+h1{
+	font-size:72px;
+	font-family: 'Lobster', cursive;
+	color:white;
+	margin: 0px 0px 0px 0px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 0px 0px 0px;
+    text-align: center;
+    align-content: center;
+    float: none;
+    color: #99CCCC;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h3{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+    float: none;
+    text-align: center;
+}
+/***********************************************************h***/
+
+/******************specific ##**************/
+
+
+
+
+.intro-left{
+    list-style-type:none;
+    font-size: 30px;
+    color: #99CCCC;
+    float: left;
+    width: 50%
+}
+
+
+
+
+/********************************************************/
+
+/**********************contact form*************************/
+
+.form-left {
+    float:left;
+    margin-left: 11%;
+    list-style-type:none;
+    font-size: 24px;
+    color: #99CCCC;
+}
+
+.contactme a{
+    
+    color: #99CCCC;
+}
+
+
+
+.contactme a:hover{
+    text-decoration: underline;
+    color: #99CCCC;
+   
+}
+
+
+fieldset{
+    font-size: 24px;
+    background-color: #99CCCC;
+    border-radius: 10px;
+}
+
+
+form{
+	text-align: center;
+	margin: 0px 150px 0px 150px;
+	font-family: 'Open Sans', sans-serif;
+    border-color: #99CCCC;
+        
+}
+
+#submit{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Railway', sans-serif;
+   width: 200px;
+    box-shadow: 0 5px #666;
+}
+
+#submit:hover {
+    background-color: #99CCCC; 
+    color: white;
+    box-shadow: 0 5px #666;
+}
+
+
+#submit:clicked {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+    
+}
+
+textarea:placeholder-shown {
+    text-align: left;
+    
+}
+
+
+
+/****************************************************************/
+
+/******* other text stuff***************************************/
+
+
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+
+header { background-color: #43C0FF;
+	  	 font-family: 'Open Sans', sans-serif;
+	  	 padding-bottom: 0px;
+	  	 margin-bottom: 20px;	
+         position: fixed;
+         width: 100%;
+    }
+
+
+p {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 66px;
+  color: white;
+  padding: 20px;
+  font-size: 32px;
+  
+    }
+
+
+section{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+   }
+
+
+a {
+text-align: center;
+  text-decoration: none;
+   
+}
+/*************footer**********************/
+.copyright {
+    background-color: #43C0FF;
+    padding: 20px;
+    margin: 0 0 0 0;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    position:absolute;
+}
+
+footer a{
+    color:#43C0FF;
+}
+
+.div-left{
+    float:left;
+    margin-left: 43%;
+    list-style-type:none;
+}
+.div-right{
+    float:right;
+    margin-right: 43%;
+    list-style-type:none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #43C0FF;
+}
+
+/*************footer**********************/
+
+
+
+
+
+/******* other text stuff***************************************/
+
+
+/*** PORTFOLIO DESIGNS********************/
+
+#designs li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 0; 
+    margin: 0;
+    
+}
+
+#designs a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.app_icons  {  color: white;
+    text-decoration: none;
+    background-color: #99CCCC;
+    margin-left: 100px;
+    margin-right: 100px; 
+    
+   
+}
+
+
+.gbtn  {
+    text-decoration: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #99CCCC;
+    padding: 10px 10px 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 2%;
+    list-style: none;
+        
+}
+
+.sgbtn  {
+    text-decoration: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #99CCCC;
+    padding: 10px 10px 10px 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+        
+}
+
+#the_secret  a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.jeffpic{
+    float: left;
+      
+}
+/************************************/  
+
+
+
+/***** Navigation****/
+
+.main-head{
+  width: 40%;
+  float: left;
+  margin-top: 10px;
+}
+
+.navigation {
+    margin-top: 30px;
+    float:right;
+    margin-right: 70px;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+    
+}
+
+.navigation a{
+   padding-right: 30px;
+    
+}
+
+.mini-head {
+    background-color: #99CCCC;
+    width: 100%;
+}
+
+nav a{ 
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+	font-size:36px;
+}
+
+header {
+ padding-bottom: 10px;
+    
+}
+
+nav {
+	float: left;
+    font-family: 'Lobster', cursive;
+	font-size:36px;
+    text-decoration: none;
+       
+}
+/****************** navigation************************/
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+iframe {
+    background-color: #43C0FF;
+    padding: 30px;
+    border-radius: 30px
+    
+}
+
+/**********************dry CSS********************************/
+
+
+.lbdr{
+      
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Railway', sans-serif;
+    
+}
+
+.bdr{
+    float: left;
+    border-radius: 10px;
+    padding:10px;
+    width: 378px;
+    font-size: 20px;
+    font-family: 'Railway', sans-serif;
+    margin-left: 72px;
+}
+
+.ebdr{
+    float: left;
+    border-radius: 10px;
+    padding:10px;
+    width: 378px;
+    font-size: 20px;
+    font-family: 'Railway', sans-serif;
+    margin-left: 30px;
+}
+
+.lbl {
+        color: white;
+    float: left;
+    margin-left: 25px
+    
+}
+
+.gentext {
+    margin-left: 250px;
+   margin-right: 250px;  
+   border-radius: 20px;
+   padding: 50px;
+   font-size: 24px;
+   color: #99CCCC;
+    float: left;
+  
+
+    
+}
+
+
+.clearfix {
+  overflow: auto;
+}
